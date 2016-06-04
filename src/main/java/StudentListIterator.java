@@ -10,7 +10,6 @@ public class StudentListIterator implements Iterator {
 		this.index = 0;
 	}
 
-	@Override
 	public boolean hasNext() {
 		// TODO 自動生成されたメソッド・スタブ
 		if (index < studentlist.getLength()) {
@@ -20,7 +19,6 @@ public class StudentListIterator implements Iterator {
 		}
 	}
 
-	@Override
 	public Object next() {
 		// TODO 自動生成されたメソッド・スタブ
 		Student student = studentlist.getStudentAt(index);

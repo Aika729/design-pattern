@@ -23,7 +23,6 @@ public class StudentList implements Aggregate {
 		return last;
 	}
 
-	@Override
 	public Iterator iterator() {
 		// TODO 自動生成されたメソッド・スタブ
 		return new StudentListIterator(this);
